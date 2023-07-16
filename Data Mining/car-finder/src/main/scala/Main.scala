@@ -15,8 +15,6 @@ object Main {
     val outputGenerator: OutputGenerator = new OutputGenerator()
     val filenameCreator: FileNameCreator = new FileNameCreator()
 
-    println(s"\n\n\n\n ARGS LENGTH: ${args.length}")
-    println(s"PATH: ${args(0)}")
     
     val filename = if (args.length >= 1) {
       println(s"path provided: ${args(0)}")
